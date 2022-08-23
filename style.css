@@ -367,8 +367,80 @@ button.each-task:focus {
   text-decoration: line-through;
 }
 
+/*
+Daily Progress Section
+*/
 .daily {
   grid-area: daily;
+  padding: 0 !important;
+}
+
+div.daily-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+div.daily-header h3 {
+  margin: 0;
+}
+
+button.daily-btn {
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+button.daily-btn:hover {
+  cursor: pointer;
+  background-color: #cccccc1a;
+  border-radius: 5px;
+}
+
+button.daily-btn i {
+  font-size: 15px;
+  color: #f7f2eb;
+}
+
+div.daily-content > p {
+  text-align: center;
+} 
+
+div.daily-content ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.daily-content ul li.item {
+  text-align: center;
+}
+
+li.item p {
+  margin: 0;
+  font-size: 14px;
+}
+
+li.item span {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+div.daily-content ul li.item:nth-child(2) {
+  width: 130px;
+  height: 130px;
+  padding: 0.5em;
+  margin-right: 10px;
+  border: 15px solid #dedede45;;
+  border-radius: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .spotify {
