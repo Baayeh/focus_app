@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <title>Focus App</title>
+</head>
+<body>
+  <section id="wrapper">
+
+    <section class="focus def-width">
+      <h3 class="heading">Ready, set, focus!</h3>
+      <p>Achieve your goals and get more done with focus sessions. Tell us how much time you have, and we'll set up the rest.</p>
+
+      <div class="time-duration">
+        <div class="time-fig">
+          <span>30</span>
+          <span>mins</span>
+        </div>
+        <div class="time-navs">
+          <button>
+            <i class="fa-solid fa-angle-up"></i>
+          </button>
+          <button>
+            <i class="fa-solid fa-angle-down"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="no-break">
+        <span>You'll have no breaks.</span>
+
+        <label class="checkbox">
+          <span>Skip breaks.</span>
+          <input type="checkbox" id="check" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+
+      <button class="start-btn">
+        <span><i class="fa-solid fa-play"></i></span>
+        <span>Start focus session</span>
+      </button>
+
+    </section>
+
+    <section class="tasks def-width">
+      <div class="task-header">
+        <div class="task-head">
+          <span><i class="fa-solid fa-check-double"></i></span>
+          <span>Tasks</span>
+        </div>
+
+        <div class="task-actions">
+          <button class="warning-action">
+            <span><i class="fa-solid fa-exclamation"></i></span>
+          </button>
+          <button class="add-task">
+            <span><i class="fa-solid fa-plus"></i></span>
+          </button>
+          <button class="more-action">
+            <span><i class="fa-solid fa-ellipsis"></i></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="task-items">
+        <p style="margin-bottom: 0;">Select a task for your session</p>
+
+        <button class="each-task">
+          <label class="task-wrap">
+            <input type="checkbox" id="cbox1">
+            <label id="lab" for="cbox1">Learn CSS Grid</label>
+            <span class="task-checkmark"></span>
+          </label>
+          <span>Select for session</span>
+        </button>
+
+        <button class="each-task">
+          <label class="task-wrap">
+            <input type="checkbox" id="cbox1">
+            <label id="lab" for="cbox1">Learn CSS Grid</label>
+            <span class="task-checkmark"></span>
+          </label>
+          <span>Select for session</span>
+        </button>
+      </div>
+
+    </section>
+
+    <section class="daily def-width">Daily Progress</section>
+
+    <section class="spotify def-width">Spotify</section>
+   
+
+  </section>
+</body>
+</html>
