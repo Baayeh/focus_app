@@ -1,7 +1,7 @@
 # Focus App
 
-> This is a clone of the Windows 11 Focus App
-> The functionalities have not been added yet
+> This is a clone of the Windows 11 Focus App. 
+- The functionalities have not been added yet
 
 
 ## Built With
